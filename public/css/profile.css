@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  background: #f5f7fb;
+}
+
+.profile-page {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 320px;
+  background: white;
+  padding: 40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 10px;
+}
+
+.sidebar p {
+  color: #6b7280;
+  margin-bottom: 30px;
+}
+
+.sidebar a {
+  display: block;
+  margin-bottom: 15px;
+  padding: 14px;
+  border-radius: 14px;
+  background: #f3f4f6;
+  text-decoration: none;
+  color: #111827;
+  font-weight: 600;
+}
+
+.logout-btn {
+  background: #ef4444 !important;
+  color: white !important;
+}
+
+.content {
+  flex: 1;
+  padding: 50px;
+}
+
+.orders {
+  display: grid;
+  gap: 20px;
+}
+
+.order-card {
+  background: white;
+  border-radius: 20px;
+  padding: 25px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.status {
+  padding: 10px 18px;
+  border-radius: 999px;
+  font-weight: 700;
+}
+
+.pending {
+  background: #fef3c7;
+}
+
+.shipping {
+  background: #dbeafe;
+}
+
+.completed {
+  background: #dcfce7;
+}
+
+.cancelled {
+  background: #fee2e2;
+}
+
+.price {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 800;
+  color: #ef4444;
+}
+
+.empty {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+}
